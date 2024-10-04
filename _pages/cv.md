@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 ### Download my CV
-- [Download CV in PDF format](/files/cv.pdf)
+- [Download CV in PDF format](/files/Shuyang_CV.pdf)

@@ -7,7 +7,7 @@ excerpt: 'This study is based on survey data from children aged 7 to 15 in three
 date: 2020-07-03
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: 'http://academicpages.github.io/files/onlychild.pdf'
 citation: 'Zhou, Q; Wei, S. (2020). &quot; Identity Transition of the ‘Only Child’ Generation: Adaptation Status and Issues of the Elder Sibling, and Suggestions for Two-Children Families Number 1.&quot; <i>Journal 1</i>. 2020(07).'
 ---
 

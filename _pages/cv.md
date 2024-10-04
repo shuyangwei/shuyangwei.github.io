@@ -8,5 +8,5 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+paperurl: 'http://shuyangwei.github.io/files/onlychild.pdf'
 

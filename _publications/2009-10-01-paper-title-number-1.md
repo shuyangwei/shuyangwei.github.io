@@ -7,7 +7,6 @@ excerpt: 'This study is based on survey data from children aged 7 to 15 in three
 date: 2020-07-03
 venue: 'Children''s Study'
 paperurl: 'http://shuyangwei.github.io/files/onlychild.pdf'
-citation: 'Zhou, Q; Wei, S. (2020). &quot;Identity Transition of the ‘Only Child’ Generation: Adaptation Status and Issues of the Elder Sibling, and Suggestions for Two-Children Families.&quot; <i>Children''s Study</i>. 2020(07).'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

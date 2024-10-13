@@ -8,8 +8,11 @@ I drew this picture for my friend and made it into a 520-piece puzzle, a present
 
 ![For Love](http://shuyangwei.github.io/images/wedding.png)
 
+
 Some girlfriends.
 ![For Yaqi](http://shuyangwei.github.io/images/yaqi.png)
+
+
 ![For Yuqi](http://shuyangwei.github.io/images/yuqi.png)
 
 ---

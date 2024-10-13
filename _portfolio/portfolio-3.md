@@ -4,19 +4,15 @@ excerpt: "I love designing tattoos for my friends."
 collection: portfolio
 ---
 
-My friend Shuwen wants a frog who is doing exercise, an owl wearing a mortarboard who is reading a book, and a cool lion. Then...
-![Tattoo_1](http://shuyangwei.github.io/images/tattoo_1.png)
+My friend Shuwen wants a frog doing exercise, an owl with a mortarboard reading a book, and a lion who is just very cool. Then...
+![tattoo_1](http://shuyangwei.github.io/images/tattoo_1.png)
 
-The tattoos on Shuwen's skin
+The effect of tattoos on Shuwen's skin
 ![For Shuwen](http://shuyangwei.github.io/images/shuwen.png)
 
 
-Some girlfriends.
-For Yaqi.
-![For Yaqi](http://shuyangwei.github.io/images/yaqi.png)
+My friend Yu wants a lovely lion and an elephant, who is a symbol of wisdom in Indian culture. Then...
+![For Yaqi](http://shuyangwei.github.io/images/tattoo_2.png)
 
-
-For Yuqi.
-![For Yuqi](http://shuyangwei.github.io/images/yuqi.png)
 
 ---

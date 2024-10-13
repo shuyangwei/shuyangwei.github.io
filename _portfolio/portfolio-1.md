@@ -1,14 +1,17 @@
 ---
 title: "Painting for my friends"
-excerpt: "Painting for my friends who get married"
+excerpt: "I love painting for my friends."
 collection: portfolio
 ---
 
-I drew this picture for my friend and made it into a 520-piece puzzle for them both to put together. In Mandarin Chinese, the homophone of '520' is 'I love you'.
+I drew this picture for my friend and made it into a 520-piece puzzle, a present for them to put together. In Mandarin Chinese, the homophone of '520' is 'I love you'. I wish them to love each other forever.
 
-![Painting for my friends](http://shuyangwei.github.io/images/wedding.png)
+![For Love](http://shuyangwei.github.io/images/wedding.png)
 
-More details about the painting.
+Some girlfriends.
+![For Yaqi](http://shuyangwei.github.io/images/yaqi.png)
+![For Yuqi](http://shuyangwei.github.io/images/yuqi.png)
+
 ---
 
 

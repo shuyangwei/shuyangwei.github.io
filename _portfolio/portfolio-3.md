@@ -6,7 +6,7 @@ collection: portfolio
 
 My friend Shuwen wants a frog doing exercise, an owl with a mortarboard reading a book, and a lion who is just very cool. Then...
 
-![tattoo1](http://shuyangwei.github.io/images/tattoo_1.png)
+![tattoos_1](http://shuyangwei.github.io/images/tattoo_1.png)
 
 The effect of tattoos on Shuwen's skin
 
@@ -14,7 +14,7 @@ The effect of tattoos on Shuwen's skin
 
 
 My friend Yu wants a lovely lion and an elephant, who is a symbol of wisdom in Indian culture. Then...
-![For Yaqi](http://shuyangwei.github.io/images/tattoo_2.png)
+![tattoos_2](http://shuyangwei.github.io/images/tattoo_2.png)
 
 
 ---

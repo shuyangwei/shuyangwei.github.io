@@ -4,19 +4,14 @@ excerpt: "Sketching is the basis of painting. Sometimes I practice still life sk
 collection: portfolio
 ---
 
+The thermos that has been with me since I was a fifth grade primary school student
+![For thermos](http://shuyangwei.github.io/images/bottle.png)
 
 
-For Love.
-![For Love](http://shuyangwei.github.io/images/wedding.png)
 
+High stool at home
+![For stool](http://shuyangwei.github.io/images/chair.png)
 
-Some girlfriends.
-For Yaqi.
-![For Yaqi](http://shuyangwei.github.io/images/yaqi.png)
-
-
-For Yuqi.
-![For Yuqi](http://shuyangwei.github.io/images/yuqi.png)
 
 ---
 

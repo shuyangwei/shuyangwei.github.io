@@ -1,5 +1,5 @@
 ---
-title: "Differences and Similarities in Basic Passive Expressions Between Malay and Chinese and Their Typological Significances (with Zhirou Lin)"
+title: "Differences and Similarities in Basic Passives Between Malay and Chinese and Their Typological Significances (with Zhirou Lin)"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2

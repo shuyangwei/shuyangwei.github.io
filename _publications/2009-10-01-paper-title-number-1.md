@@ -1,5 +1,5 @@
 ---
-title: "Identity Transition of the ‘Only Child’ Generation: Adaptation Status and Issues of the Elder Sibling, and Suggestions for Two-Children Families (Co-authored, group work)"
+title: "Identity Transition of the ‘Only Child’ Generation: Adaptation Status and Issues of the Elder Siblings, and Suggestions for Two-Children Families (Co-authored, group work)"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1

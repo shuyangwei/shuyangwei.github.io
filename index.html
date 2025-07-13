@@ -28,18 +28,23 @@
   }
 
   nav a {
-  margin-right: 2em;
-  text-decoration: none;
-  font-weight: 600;
-  color: #555555;         /* 灰色链接 */
-  font-size: 1.2em;
-  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    margin-right: 2em;
+    text-decoration: none;
+    font-weight: 600;
+    color: #555555; /* 灰色 */
+    font-size: 1.2em;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    border-bottom: 2px solid transparent; /* 预留下划线位置，默认透明 */
   }
 
-  nav a:hover,
+  nav a:hover {
+    color: #111111; /* 悬停变黑 */
+    border-bottom-color: #111111; /* 悬停显示黑色下划线 */
+  }
+
   nav a.active {
-  color: #111111;         /* 悬停/当前页变黑 */
-  border-bottom: 2px solid #111111;  
+    color: #111111; /* 当前页黑色 */
+    border-bottom-color: #111111; /* 当前页黑色下划线 */
   }
 
   .intro-section {
@@ -75,7 +80,8 @@
       text-align: left;
     }
   }
-    /* 🔵 自定义超链接样式 */
+
+  /* 正文超链接蓝色样式 */
   a:link {
     color: #4A90E2;
     text-decoration: none;
@@ -90,8 +96,7 @@
     color: #1E88E5;
     text-decoration: underline;
   }
-</style>
-
+  </style>
 </head>
 <body>
   <h1>Shuyang Wei 魏淑阳</h1>
@@ -111,7 +116,5 @@
       <p>My research interests include semantics, pragmatics, syntax-semantics interface, experimental methods, and computational modeling.</p>
     </div>
   </div>
-
 </body>
 </html>
-

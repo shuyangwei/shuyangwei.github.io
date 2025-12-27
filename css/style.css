@@ -195,3 +195,7 @@ p{ margin: 0 0 14px; }
     top: 28px;
   }
 }
+/* Research 页面专用：放开正文宽度 */
+.page-research .content{
+  max-width: none;
+}

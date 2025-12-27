@@ -1,0 +1,106 @@
+:root{
+  --text:#1f2328;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --link:#2563eb;
+
+  /* 这个决定“左右留白像不像参考站” */
+  --maxw: 900px;
+}
+
+*{ box-sizing:border-box; }
+
+html, body{
+  margin:0;
+  padding:0;
+  background:#fff;
+  color:var(--text);
+  font-family:"Inter","Noto Sans SC",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:18px;
+  line-height:1.75;
+}
+
+.container{
+  max-width:var(--maxw);
+  margin:72px auto 96px;  /* 上下留白 */
+  padding:0 28px;         /* 左右留白 */
+}
+
+.header{
+  margin-bottom: 18px;
+}
+
+.name{
+  margin:0 0 10px 0;
+  font-size:42px;
+  font-weight:700;
+  letter-spacing:-0.02em;
+}
+
+.name .cjk{ font-weight:700; }
+
+.meta{
+  margin: 0 0 12px 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.icons{
+  display:flex;
+  gap:14px;
+  align-items:center;
+}
+
+.icons a{
+  color: var(--muted);
+  text-decoration:none;
+  font-size: 18px; /* 图标大小 */
+}
+
+.icons a:hover{
+  color: var(--link);
+}
+
+h2{
+  margin:0 0 14px 0;
+  font-size:22px;
+  font-weight:600;
+}
+
+p{
+  margin:0 0 16px 0;
+}
+
+a{
+  color:var(--link);
+  text-decoration:none;
+}
+
+a:hover{ text-decoration:underline; }
+
+hr{
+  border:none;
+  border-top:1px solid var(--line);
+  margin:40px 0;
+}
+
+.footer{
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* 可选：更干净的列表 */
+ul.clean{
+  margin:0;
+  padding-left: 18px;
+}
+ul.clean li{
+  margin: 0 0 10px 0;
+}
+
+/* Mobile */
+@media (max-width: 640px){
+  html, body{ font-size:17px; }
+  .container{ margin:48px auto 72px; padding:0 20px; }
+  .name{ font-size:34px; }
+}

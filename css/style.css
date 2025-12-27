@@ -47,7 +47,7 @@ a:hover{ text-decoration:underline; }
   align-items:flex-end;
   justify-content:space-between;
   gap:16px;
-  padding: 26px 0 22px;
+  padding: 34px 0 26px;
 }
 
 header.topbar{
@@ -63,10 +63,11 @@ header.topbar{
 .brand-name{
   font-weight:700;
   letter-spacing:-0.01em;
-  font-size: 22px;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .brand-cjk{
-  front-size: 18px;
+  front-size: 20px;
   color:var(--muted);
   font-weight:600;
 }
@@ -74,10 +75,10 @@ header.topbar{
 .topnav a{
   color:var(--muted);
   font-weight:600;
-  margin-left:18px;
-  padding: 4px 0;
-  font-size: 16px;
-  border-bottom: 1px solid transparent;
+  margin-left:22px;
+  padding: 6px 0;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
 }
 .topnav a:hover{
   color:var(--hover);
@@ -86,7 +87,7 @@ header.topbar{
 }
 .topnav a.active{
   color:var(--text);
-  border-bottom-color: rgba(17,24,39,0.35);
+  border-bottom-color: rgba(17,24,39,0.45);
 }
 
 /* Two column layout */

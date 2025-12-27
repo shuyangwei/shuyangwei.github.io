@@ -1,125 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Shuyang Wei</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif+SC&display=swap" rel="stylesheet" />
-  <style>
-  body {
-  font-family: "Inter", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #222;
-}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shuyang Wei 魏淑阳</title>
 
-  h1 {
-    margin-bottom: 0.5em;
-  }
+  <!-- Fonts (Inter + Noto Sans SC) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap" rel="stylesheet">
 
-  nav {
-    margin-top: 1em;
-    margin-bottom: 3em;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  nav a {
-    margin-right: 2em;
-    text-decoration: none;
-    font-weight: 600;
-    color: #555555;
-    font-size: 1.2em;
-  }
-
-  nav a:hover,
-  nav a.active {
-    color: #111111;
-    border-bottom: 2px solid #111111;
-  }
-
-  .intro-section {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 30px;
-    margin-bottom: 3em;
-    flex-wrap: wrap;
-  }
-
-  .intro-photo {
-    max-width: 200px;
-    border-radius: 10px;
-    flex-shrink: 0;
-  }
-
-  .intro-text {
-    flex: 1;
-    min-width: 280px;
-  }
-
-  .intro-text p {
-    margin-bottom: 1.2em;
-  }
-
-  /* 三个学校链接专属色 */
-  a.msu-link {
-    color: #A8D5BA; /* 淡绿色 */
-    text-decoration: none;
-  }
-  a.zju-link {
-    color: #A3C1E1; /* 淡蓝色 */
-    text-decoration: none;
-  }
-  a.nju-link {
-    color: #C4AEDB; /* 淡紫色 */
-    text-decoration: none;
-  }
-
-  /* 悬停变深色并显示下划线 */
-  a.msu-link:hover {
-    color: #5A8F5A; /* 深绿色 */
-    text-decoration: underline;
-  }
-  a.zju-link:hover {
-    color: #3B5998; /* 深蓝色 */
-    text-decoration: underline;
-  }
-  a.nju-link:hover {
-    color: #6F4B8B; /* 深紫色 */
-    text-decoration: underline;
-  }
-    
-  @media (max-width: 600px) {
-    .intro-section {
-      flex-direction: column;
-      align-items: center;
-    }
-    .intro-text {
-      text-align: left;
-    }
-  }
-</style>
-
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-  <h1>Shuyang Wei 魏淑阳</h1>
-  <nav>
-    <a href="index.html" class="active">Home</a>
-    <a href="research.html">Research</a>
-    <a href="cv.html">CV</a>
-    <a href="contact.html">Contact</a>
-    <a href="about.html">About</a>
-  </nav>
+  <main class="page">
 
-  <div class="intro-section">
-    <img src="images/Shuyang.JPG" alt="Photo of Shuyang Wei" class="intro-photo" />
-    <div class="intro-text">
-      <p>Hi! My name is Shuyang Wei, pronounced as [ʂu iɑŋ, uei]. Welcome to my homepage!</p>
-      <p>I'm a first-year PhD student in Linguistics at <a href="https://msu.edu" target="_blank" class="msu-link">Michigan State University</a>💚. Before being a member of Spartans, I received an MA in Linguistics and Applied Linguistics at  <a href="https://www.zju.edu.cn/english//" target="_blank" class="zju-link">Zhejiang University</a> and had a BA in Teaching Chinese to Speakers of Other Languages at <a href="https://www.nju.edu.cn/en/" target="_blank" class="nju-link">Nanjing University</a>.</p>
-      <p>My research interests include semantics, pragmatics, syntax-semantics interface, experimental methods, and computational modeling.</p>
-    </div>
-  </div>
+    <header class="site-header">
+      <h1 class="name">Shuyang Wei <span class="cjk">魏淑阳</span></h1>
+    </header>
 
+    <hr class="rule" />
+
+    <section class="section">
+      <h2>About me</h2>
+
+      <p>
+        I am a first-year PhD student in Linguistics at
+        <a href="https://msu.edu/" target="_blank" rel="noopener noreferrer">Michigan State University</a>.
+        My research interests include semantics, pragmatics, syntax-semantics interface,
+        experimental methods, and computational modeling.
+      </p>
+
+      <p>
+        Before MSU, I received an MA in Linguistics and Applied Linguistics at
+        <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
+        and a BA in Teaching Chinese to Speakers of Other Languages at
+        <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>.
+      </p>
+
+      <p class="meta">
+        Email: <a href="mailto:YOUR_EMAIL@msu.edu">YOUR_EMAIL@msu.edu</a> ·
+        CV: <a href="./cv.pdf">cv.pdf</a>
+      </p>
+    </section>
+
+    <hr class="rule" />
+
+    <section class="section">
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <span class="authors">Wei, S.</span> (Year). Title. <em>Venue</em>.
+          <a href="#" target="_blank" rel="noopener noreferrer">[pdf]</a>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="rule" />
+
+    <section class="section">
+      <h2>Conference Presentations</h2>
+      <ul>
+        <li>
+          Wei, S. (Year). Title. <em>Conference</em>, City, Country. [Poster/Oral]
+        </li>
+      </ul>
+    </section>
+
+    <hr class="rule" />
+
+    <footer class="footer">
+      <span>Shuyang Wei © <span id="year"></span></span>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+

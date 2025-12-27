@@ -125,3 +125,16 @@ footer {
     padding: 0 20px;
   }
 }
+
+/* --- EMERGENCY FIX: stop centering/viewport locking --- */
+html, body { height: auto !important; }
+
+body{
+  display: block !important;
+  overflow: auto !important;
+}
+
+main, .container{
+  display: block !important;
+}
+

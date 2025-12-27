@@ -94,6 +94,7 @@ a:hover{ text-decoration:underline; }
   grid-template-columns: 260px minmax(0, 1fr);
   gap: 34px;
   align-items:start;
+  margin-top: 28px;
 }
 
 

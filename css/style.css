@@ -47,7 +47,8 @@ a:hover{ text-decoration:underline; }
   align-items:flex-end;
   justify-content:space-between;
   gap:16px;
-  padding: 34px 0 26px;
+  padding: 34px 0 34px;
+  border-bottom: 1px solid var(--line);
 }
 
 

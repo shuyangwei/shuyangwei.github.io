@@ -1,68 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Shuyang Wei 魏淑阳</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
+  <main class="container">
 
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html">Your Name</a>
-    <div class="navlinks">
-      <a class="active" href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="cv.html">CV</a>
-    </div>
-  </div>
-</header>
+    <!-- Header -->
+    <header class="header">
+      <h1 class="name">
+        Shuyang Wei <span class="cjk">魏淑阳</span>
+      </h1>
 
-<main>
-  <div class="card">
-    <div class="hero">
-      <!-- 可选：放头像。不想放就把这一行删掉 -->
-      <img class="avatar" src="assets/photo.jpg" alt="Portrait">
+      <p class="meta">
+        PhD student, Linguistics · Michigan State University
+      </p>
 
-      <div>
-        <h1>Your Name</h1>
-        <p class="subtitle">
-          First-year PhD student in Linguistics · Michigan State University<br>
-          Email: yourname [at] msu.edu
-        </p>
-
-        <p>
-          I study how listeners infer clause type from prosody when morphosyntactic cues are limited,
-          with a focus on Mandarin wh-in-situ constructions and prosodic cue weighting in perception.
-        </p>
-
-        <div class="badges">
-          <span class="badge">Prosody</span>
-          <span class="badge">Syntax/Semantics Interface</span>
-          <span class="badge">Mandarin</span>
-          <span class="badge">Experimental</span>
-        </div>
-
-        <div class="section-title">Links</div>
-        <p>
-          <a href="#">Google Scholar</a> ·
-          <a href="#">GitHub</a> ·
-          <a href="assets/CV.pdf">CV (PDF)</a>
-        </p>
-      </div>
-    </div>
+      <nav class="icons" aria-label="links">
+        <!-- 把下面的链接换成你自己的 -->
+        <a href="mailto:YOUR_EMAIL@msu.edu" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="./cv.pdf" title="CV" aria-label="CV"><i class="fa-regular fa-id-card"></i></a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </nav>
+    </header>
 
     <hr>
 
-    <div class="section-title">Now</div>
-    <p>
-      Currently working on (1) prosodic inference in Mandarin wh-questions vs wh-declaratives,
-      and (2) experimental designs for separating prosodic and contextual contributions to interpretation.
-    </p>
-  </div>
-</main>
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a first-year PhD student in Linguistics at
+        <a href="https://msu.edu" target="_blank" rel="noopener noreferrer">Michigan State University</a>.
+        My research interests include semantics, pragmatics, the syntax–semantics interface,
+        experimental methods, and computational modeling.
+      </p>
 
+      <p>
+        Before MSU, I received an MA in Linguistics and Applied Linguistics at
+        <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
+        and a BA in Teaching Chinese to Speakers of Other Languages at
+        <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>.
+      </p>
+    </section>
+
+    <!-- （以后内容多了再打开） -->
+    <!--
+    <hr>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul class="clean">
+        <li>Wei, S. (Year). Title. <em>Venue</em>. <a href="#">[pdf]</a></li>
+      </ul>
+    </section>
+    -->
+
+    <hr>
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Shuyang Wei</span>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
 

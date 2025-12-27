@@ -143,18 +143,15 @@ a:hover{ text-decoration:underline; }
 
 .callout{
   margin-top: 18px;
-  padding: 14px 14px;
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: rgba(17,24,39,0.02);
+  padding: 0;
+  border: none;
+  background: transparent;
 }
 .callout-title{
   display:block;
-  font-weight:700;
-  font-size: 13px;
+  font-weight:600;
+  font-size: 14px;
   color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: .08em;
   margin-bottom: 6px;
 }
 .callout-text{

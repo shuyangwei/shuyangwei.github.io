@@ -1,59 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Research | Your Name</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Research | Shuyang Wei</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
+  <main class="container">
 
-<header>
-  <div class="nav">
-    <a class="brand" href="index.html">Your Name</a>
-    <div class="navlinks">
-      <a href="index.html">Home</a>
-      <a class="active" href="research.html">Research</a>
-      <a href="cv.html">CV</a>
-    </div>
-  </div>
-</header>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-name">Shuyang Wei</span>
+        <span class="brand-cjk cjk">魏淑阳</span>
+      </div>
 
-<main>
-  <div class="card">
-    <h1>Research</h1>
-    <p class="subtitle">Selected interests, ongoing work, and manuscripts.</p>
+      <nav class="topnav" aria-label="primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="research.html">Research</a>
+        <a href="./cv.pdf">CV</a>
+      </nav>
+    </header>
 
-    <div class="section-title">Research Interests</div>
-    <ul class="list">
-      <li>Prosody–syntax–semantics interface</li>
-      <li>Clause typing and listener inference under ambiguity</li>
-      <li>Mandarin wh-in-situ and prosodic cue weighting</li>
-      <li>Experimental & computational methods for linguistic theory</li>
-    </ul>
+    <hr class="rule">
 
-    <hr>
+    <section class="content">
+      <h1 class="page-title">Research</h1>
 
-    <div class="section-title">Ongoing Projects</div>
-    <p><strong>Prosodic inference in Mandarin wh-constructions</strong></p>
-    <p>
-      How do listeners distinguish wh-questions from wh-declaratives when segmental strings are identical
-      and grammatical clause-typing cues are absent? I test how different prosodic cues are weighted and
-      where inference breaks down.
-    </p>
+      <p>
+        I work on the interface between prosody, syntax, and semantics, with a focus on Mandarin.
+        My current projects examine how listeners infer clause type when morphosyntactic cues are limited.
+      </p>
 
-    <hr>
+      <div class="callout">
+        <span class="callout-title">Ongoing Projects</span>
+        <p class="callout-text">
+          <strong>Prosodic inference in Mandarin wh-in-situ</strong><br>
+          How do listeners distinguish wh-questions from wh-declaratives when segmental strings are identical?
+          I test how different prosodic cues are weighted and where inference breaks down.
+        </p>
+      </div>
 
-    <div class="section-title">Publications & Manuscripts</div>
-    <ul class="list">
-      <li>Manuscripts in preparation.</li>
-      <!-- 以后这样加：
-      <li>Your Name. (Year). Title. <em>Journal</em>. <a href="#">pdf</a></li>
-      -->
-    </ul>
-  </div>
-</main>
+      <div class="callout" style="margin-top:14px;">
+        <span class="callout-title">Publications & Manuscripts</span>
+        <p class="callout-text">
+          Manuscripts in preparation.
+        </p>
+      </div>
+    </section>
 
+    <hr class="rule">
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Shuyang Wei</span>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
 

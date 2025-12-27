@@ -144,10 +144,10 @@ a:hover{ text-decoration:underline; }
   letter-spacing:-0.01em;
 }
 
-.small-title{
+.section-title{
   margin-top: 22px;
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 22px;
   color: var(--muted);
   font-weight: 700;
   text-transform: uppercase;

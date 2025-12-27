@@ -98,8 +98,7 @@ a:hover{ text-decoration:underline; }
 
 
 .sidebar {
-  width: 260px;          
-  flex-shrink: 0;       
+  width: 100%;       
 }
 
 .avatar {
@@ -138,6 +137,10 @@ a:hover{ text-decoration:underline; }
 }
 
 /* Content */
+.content{
+  max-width: 650px;
+}
+
 .page-title{
   margin: 0 0 10px;
   font-size: 16.5px;
@@ -181,5 +184,13 @@ p{ margin: 0 0 14px; }
   .topnav a{
     margin-left:0;
     margin-right:14px;
+  }
+}
+
+/* Desktop enhancement */
+@media (min-width: 821px){
+  .sidebar{
+    position: sticky;
+    top: 28px;
   }
 }

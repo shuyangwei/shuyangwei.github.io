@@ -20,57 +20,87 @@
 <body>
   <main class="container">
 
-    <!-- Header -->
-    <header class="header">
-      <h1 class="name">
-        Shuyang Wei <span class="cjk">魏淑阳</span>
-      </h1>
+    <!-- Top navigation -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-name">Shuyang Wei</span>
+        <span class="brand-cjk cjk">魏淑阳</span>
+      </div>
 
-      <p class="meta">
-        PhD student, Linguistics · Michigan State University
-      </p>
-
-      <nav class="icons" aria-label="links">
-        <!-- 把下面的链接换成你自己的 -->
-        <a href="mailto:YOUR_EMAIL@msu.edu" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        <a href="./cv.pdf" title="CV" aria-label="CV"><i class="fa-regular fa-id-card"></i></a>
-        <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <nav class="topnav" aria-label="primary">
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="./cv.pdf">CV</a>
       </nav>
     </header>
 
-    <hr>
+    <hr class="rule">
 
-    <!-- About -->
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        I am a first-year PhD student in Linguistics at
-        <a href="https://msu.edu" target="_blank" rel="noopener noreferrer">Michigan State University</a>.
-        My research interests include semantics, pragmatics, the syntax–semantics interface,
-        experimental methods, and computational modeling.
-      </p>
+    <!-- Two-column layout -->
+    <div class="layout">
 
-      <p>
-        Before MSU, I received an MA in Linguistics and Applied Linguistics at
-        <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
-        and a BA in Teaching Chinese to Speakers of Other Languages at
-        <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>.
-      </p>
-    </section>
+      <!-- Left: photo + icons -->
+      <aside class="sidebar">
+        <img class="avatar" src="assets/photo.jpg" alt="Portrait of Shuyang Wei">
 
-    <!-- （以后内容多了再打开） -->
-    <!--
-    <hr>
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul class="clean">
-        <li>Wei, S. (Year). Title. <em>Venue</em>. <a href="#">[pdf]</a></li>
-      </ul>
-    </section>
-    -->
+        <p class="meta">
+          PhD student, Linguistics<br>
+          Michigan State University
+        </p>
 
-    <hr>
+        <nav class="icons" aria-label="links">
+          <a href="mailto:YOUR_EMAIL@msu.edu" title="Email" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="./cv.pdf" title="CV" aria-label="CV">
+            <i class="fa-regular fa-id-card"></i>
+          </a>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar">
+            <!-- 注意：font-awesome 没有官方 google-scholar 图标，下面用 graduation-cap 更稳 -->
+            <i class="fa-solid fa-graduation-cap"></i>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <!-- 你如果有 Twitter/X：把链接换成自己的 -->
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer" title="X (Twitter)" aria-label="X (Twitter)">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </nav>
+      </aside>
+
+      <!-- Right: content -->
+      <section class="content">
+        <h1 class="page-title">
+          About
+        </h1>
+
+        <p>
+          I am a first-year PhD student in Linguistics at
+          <a href="https://msu.edu" target="_blank" rel="noopener noreferrer">Michigan State University</a>.
+          My research interests include semantics, pragmatics, the syntax–semantics interface,
+          experimental methods, and computational modeling.
+        </p>
+
+        <p>
+          Before MSU, I received an MA in Linguistics and Applied Linguistics at
+          <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener noreferrer">Zhejiang University</a>,
+          and a BA in Teaching Chinese to Speakers of Other Languages at
+          <a href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener noreferrer">Nanjing University</a>.
+        </p>
+
+        <!-- 如果你想在首页放一句 research teaser -->
+        <div class="callout">
+          <span class="callout-title">Now</span>
+          <p class="callout-text">
+            I am currently developing projects on Mandarin wh-in-situ constructions and how listeners infer clause type from prosody when morphosyntactic cues are limited.
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    <hr class="rule">
 
     <footer class="footer">
       <span>© <span id="y"></span> Shuyang Wei</span>
@@ -83,5 +113,3 @@
   </script>
 </body>
 </html>
-
-

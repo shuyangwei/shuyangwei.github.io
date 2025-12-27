@@ -1,47 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Your Name</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="cv.html">CV</a>
-  </nav>
 
-  <main>
-    <h1>Your Name</h1>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">Your Name</a>
+    <div class="navlinks">
+      <a class="active" href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+    </div>
+  </div>
+</header>
 
-    <p class="subtitle">
-      First-year PhD student in Linguistics<br>
-      Michigan State University
-    </p>
+<main>
+  <div class="card">
+    <div class="hero">
+      <!-- 可选：放头像。不想放就把这一行删掉 -->
+      <img class="avatar" src="assets/photo.jpg" alt="Portrait">
 
+      <div>
+        <h1>Your Name</h1>
+        <p class="subtitle">
+          First-year PhD student in Linguistics · Michigan State University<br>
+          Email: yourname [at] msu.edu
+        </p>
+
+        <p>
+          I study how listeners infer clause type from prosody when morphosyntactic cues are limited,
+          with a focus on Mandarin wh-in-situ constructions and prosodic cue weighting in perception.
+        </p>
+
+        <div class="badges">
+          <span class="badge">Prosody</span>
+          <span class="badge">Syntax/Semantics Interface</span>
+          <span class="badge">Mandarin</span>
+          <span class="badge">Experimental</span>
+        </div>
+
+        <div class="section-title">Links</div>
+        <p>
+          <a href="#">Google Scholar</a> ·
+          <a href="#">GitHub</a> ·
+          <a href="assets/CV.pdf">CV (PDF)</a>
+        </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="section-title">Now</div>
     <p>
-      I am a first-year PhD student in linguistics at Michigan State University.
-      My research broadly concerns the interface between prosody, syntax, and
-      semantics, with a particular interest in how listeners infer clause type
-      when grammatical cues are underspecified.
+      Currently working on (1) prosodic inference in Mandarin wh-questions vs wh-declaratives,
+      and (2) experimental designs for separating prosodic and contextual contributions to interpretation.
     </p>
+  </div>
+</main>
 
-    <p>
-      I am currently working on projects on Mandarin wh-in-situ constructions
-      and the role of prosodic cues in sentence interpretation.
-    </p>
-
-    <p class="contact">
-      Email: yourname [at] msu.edu<br>
-      <a href="#">Google Scholar</a> · <a href="#">GitHub</a>
-    </p>
-  </main>
 </body>
 </html>
 

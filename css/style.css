@@ -199,3 +199,9 @@ p{ margin: 0 0 14px; }
 .page-research .content{
   max-width: none;
 }
+
+/* Research 页：补齐和 Home 一样的顶部间距 */
+.page-research .content{
+  margin-top: 28px;
+}
+

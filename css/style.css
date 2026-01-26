@@ -209,3 +209,7 @@ p{ margin: 0 0 14px; }
   max-width: none;
 }
 
+.page-about .content{
+  margin-top: 28px;
+}
+

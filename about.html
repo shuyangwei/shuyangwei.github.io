@@ -1,24 +1,72 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>About Me</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Research | Shuyang Wei</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>
+<body class="page-research">
+  <main class="container">
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="research.html">Research</a>
-  <a href="about.html">About</a>
-</nav>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-name">Shuyang Wei</span>
+        <span class="brand-cjk cjk">魏淑阳</span>
+      </div>
 
-<h1>About Me</h1>
+      <nav class="topnav" aria-label="primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="research.html">Research</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+
+    <section class="content">
+      <h1 class="page-title">About</h1>
 
 <p>
-This is my about page.
+  I did some research on Mandarin <i>wh</i>-word <i>shenme</i>. My MA thesis is <em>The Semantics of <i>Shenme</i> in Object Clauses in Mandarin Chinese</em> 
+  <a href="papers/wei-ma-thesis.pdf" target="_blank" rel="noopener">[PDF].
+</a>
+
+
+
+  
 </p>
 
+<h2 class="section-title">Ongoing Projects</h2>
+<p>
+  <strong>Prosodic inference in Mandarin wh-in-situ.</strong>
+  How do listeners distinguish wh-questions from wh-declaratives when segmental strings are identical?
+  I test how different prosodic cues are weighted and where inference breaks down.
+</p>
+
+<h2 class="section-title">Publications &amp; Manuscripts</h2>
+<p>
+  Manuscripts in preparation.
+</p>
+
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <footer class="footer">
+      <span>© <span id="y"></span> Shuyang Wei</span>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

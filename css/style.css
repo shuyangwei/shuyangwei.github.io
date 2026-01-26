@@ -205,3 +205,7 @@ p{ margin: 0 0 14px; }
   margin-top: 28px;
 }
 
+.page-about .content{
+  max-width: none;
+}
+
